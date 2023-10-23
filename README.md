@@ -1,2 +1,2 @@
-# html-css-bootstrap-freelancer
+# Bootstrap Freelancer
 Example of "Freelancer", responsive template.
