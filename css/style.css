@@ -6,7 +6,7 @@
 ul {
   list-style-type: none;
 }
-/* Navbar */
+
 h4,
 header {
   font-weight: 700;
@@ -27,10 +27,8 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  padding: 40px 0;
 }
 
-header,
 section:nth-of-type(odd),
 #send {
   color: white;
@@ -41,12 +39,19 @@ header {
   background-color: #2c3e50;
 }
 
-/* nav .container {
-  height: 90px;
-} */
-/* /Navbar */
+/* /header */
 /* Main */
+
 /* First section */
+.star {
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2rem;
+}
+/* /first section */
+
+/* second section */
 #placeholder {
   width: 230px;
 }
@@ -55,14 +60,10 @@ header h5 {
   margin-bottom: 50px;
 }
 
-/* section:first-of-type {
-  margin: 90px 0;
-} */
-
-/* section:first-of-type .row {
-  gap: 30px;
+section:nth-of-type(2) img {
+  width: 100%;
 }
- */
+
 #portfolio-1 {
   background-color: #ba4b63;
 }
@@ -86,15 +87,15 @@ header h5 {
 #portfolio-6 {
   background-color: #1c83c1;
 }
-/* /first section */
-/* Second section */
+/* /second section */
+/* third section */
 
 section:nth-of-type(2) button {
   margin-bottom: 60px;
 }
 
-/* /second section */
-/* Third section */
+/* /third section */
+/* fourth section */
 #contacts {
   margin-top: 130px;
 }
@@ -103,5 +104,5 @@ section:nth-of-type(2) button {
   margin-bottom: 60px;
 }
 
-/* /third section*/
+/* /fourth section*/
 /* /Main */

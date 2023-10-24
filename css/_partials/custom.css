@@ -1,11 +1,9 @@
 /* custom */
-section i::before,
-section i::after {
+.star::before,
+.star::after {
   content: "";
-  display: inline-block;
-  width: 100%;
+  width: 15%;
   height: 2px;
-  background-color: #fff;
-  margin-right: 10px;
+  background-color: currentColor;
 }
 /* /custom */
